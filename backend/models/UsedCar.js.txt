@@ -1,0 +1,16 @@
+// backend/models/UsedCar.js
+const mongoose = require('mongoose');
+
+const UsedCarSchema = new mongoose.Schema({
+  model: { type: String, required: true },
+  year: { type: Number, required: true },
+  price: { type: Number, required: true },
+  location: { type: String, required: true },
+  kmRun: { type: Number, required: true },
+  mileage: { type: Number, required: true },
+  image: { type: String }, // path to uploaded image
+  seller: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  createdAt: { type: Date, default: Date.now }
+});
+
+module.exports = mongoose.model('UsedCar', UsedCarSchema);
