@@ -153,7 +153,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@thanish-a-shetty](https://github.com/thanish-a-shetty
 
 ## 🙏 Acknowledgments
 
